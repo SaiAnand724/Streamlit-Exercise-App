@@ -1,6 +1,7 @@
 # Custom ignores
 .venv
 .streamlit
+base
 secrets.toml
 config.yaml
-./utilities/mod_global_python_mysql.py
+
