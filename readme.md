@@ -12,7 +12,7 @@ PowerShell prompts
 1. python -m venv .venv - sets the virtual environment (name of this venv is .venv)
 2. .venv/Scripts/activate - activates virtual environment
     - deactivate - leaves the virtual environment and returns to working directory
-3. python -m pip install {dependencies}
+3. python -m pip/pip3 install {dependencies}
     - openai, 'tiktoken', python-dotenv, streamlit, streamlit-authenticator
-    - For databases: [MySQL - mysqlclient, SQLAlchemy], [MongoDB - pymongo]
+    - For databases: [MySQL - mysqlclient, SQLAlchemy, mysql-connector-python-rf], [MongoDB - pymongo]
 4. python -m streamlit run {streamlit app main python file}
