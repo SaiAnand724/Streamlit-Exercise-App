@@ -3,4 +3,4 @@
 .streamlit
 secrets.toml
 config.yaml
-utilities/mod_global_python_mysql.py
+./utilities/mod_global_python_mysql.py
