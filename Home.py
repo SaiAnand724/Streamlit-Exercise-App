@@ -10,10 +10,16 @@ st.title("Home Page")
 
 st.sidebar.success("Select a page")
 
-st.text("Hello World")
+# Intro text - about the application
+st.header("About the Exercise App")
+st.text("blah blah blah --insert text here--")
 
 
 # Provide structure for page elements
+
+
+
+#########################################################################################################################################
 
 # streamlit_app.py
 #import mysql.connector as sql_conn
@@ -28,5 +34,3 @@ df = sqlconn.query('SELECT * from mytable;', ttl=600)
 
 # print query table as dataframe
 st.dataframe(df)
-
-# 
