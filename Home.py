@@ -14,6 +14,10 @@ st.sidebar.success("Select a page")
 st.header("About the Exercise App")
 st.text("blah blah blah --insert text here--")
 
+# Add a selectbox to allow users to choose which client they wish to look at
+st.subheader('Choose a client:')
+client = st.selectbox()
+
 
 # Provide structure for page elements
 
