@@ -19,21 +19,25 @@ st.title("Exercise Tables")
 
 # Overview of Full Exercise list
 # Exercise name, intensity, muscle groups, skill lvl, descriptions
-st.header("Full Exercise List")
+st.header("Exercise Table 1")
+st.text("Full Exercise List")
 
 # Query table from database using SQL query, use pyquery module
 
 
 # Skill Level exercises - Basic, Advanced, Expert
 # Exercise name, skill lvl, sets and reps
-st.header("Skill Based Exercises")
+st.header("Exercise Table 2")
+st.text("Skill Based Exercises")
+
 
 # Query table from database using SQL query, use pyquery module
 
 
 # Body Type Exercises - M (Ectomorph, Mesomorph, Endomorph), F (Pear, Apple, Carrot, Celery, Hourglass)
 # Exercise name, body type, sex, skill lvl
-st.header("Body Type Exercises")
+st.header("Exercise Table 3")
+st.text("Body Type Exercises")
 
 # Query table from database using SQL query, use pyquery module
 

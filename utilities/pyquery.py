@@ -16,7 +16,7 @@ from utils import Utilities as sql_utils
 import json
 
 # Create a class 'sqlpy' that inherits the properties of the 'Utilities' class
-class sqlpy(Utilities):
+class sqlpy(sql_utils):
     def __init__(self):
         super().__init__()
         

@@ -15,8 +15,8 @@ st.header("About the Exercise App")
 st.text("blah blah blah --insert text here--")
 
 # Add a selectbox to allow users to choose which client they wish to look at
-st.subheader('Choose a client:')
-client = st.selectbox()
+client = st.selectbox('Choose a client:', 
+                      ['client1', 'client2'])
 
 
 # Provide structure for page elements

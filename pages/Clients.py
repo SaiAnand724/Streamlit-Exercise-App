@@ -1,8 +1,7 @@
 # Global module imports
+# import utilities
 import streamlit as st
 
-# Local module imports
-#from utilities.pyquery import sqlpy
 
 # Define the main page title and icon
 st.set_page_config(
@@ -22,11 +21,13 @@ st.title("Client Tables")
 # Overview of full Client info
 # Client name, weight, dob, sex, body type, calorie information (potentially), 
 st.header("Client Table 1")
+st.text("Full Client Info")
 
 # Query table from database using SQL query, use pyquery module
 
 # Client exercises, description, skill lvl, body type, muscle groups, sets and reps 
 st.header("Client Table 2")
+st.text("Client Exercises")
 
 # Query table from database using SQL query, use pyquery module
 
@@ -34,6 +35,7 @@ st.header("Client Table 2")
 # Client exercises, description, skill lvl, body type, Intensity, 
 # muscle groups, sets and reps, time spent exercising per session | (bundles data after a week)
 st.header("Client Table 3")
+st.text("Client Sessions/Routines")
 
 # Query table from database using SQL query, use pyquery module
 
