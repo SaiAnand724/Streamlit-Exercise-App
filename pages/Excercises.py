@@ -23,6 +23,8 @@ st.header("Exercise Table 1")
 st.text("Full Exercise List")
 
 # Query table from database using SQL query, use pyquery module
+# full_exerc_tbl = dbse.sqlpy('''SELECT * FROM exercise_list; ''')
+# full_exerc_tbl = [["Bench Press", "Moderate", "Chest"], ["Incline Bench Press", "Very High", "Triceps"]], ...
 
 
 # Skill Level exercises - Basic, Advanced, Expert
@@ -30,8 +32,10 @@ st.text("Full Exercise List")
 st.header("Exercise Table 2")
 st.text("Skill Based Exercises")
 
-
 # Query table from database using SQL query, use pyquery module
+# skill_exerc_tbl = dbse.sqlpy('''SELECT * FROM skill_based WHERE skill_lvl= ['Basic', 'Advanced', 'Expert']; ''')
+# skills_levels = ["Basic", "Advanced", "Expert"]
+# skill_lvl = st.selectbox("Choose a Skill Level: ", skills_levels)
 
 
 # Body Type Exercises - M (Ectomorph, Mesomorph, Endomorph), F (Pear, Apple, Carrot, Celery, Hourglass)
@@ -40,7 +44,8 @@ st.header("Exercise Table 3")
 st.text("Body Type Exercises")
 
 # Query table from database using SQL query, use pyquery module
-
+# bodyt_exerc_tbl = dbse.sqlpy('''SELECT * FROM bodytype_exercises WHERE sex=['M' or 'F'] and 
+# body_type=[[Ectomorph, Mesomorph, Endomorph] or [Pear, Apple, Carrot, Celery, Hourglass]]; ''')
 
 # Routine maker for different exercises - based on body type, skill, different muscle groups, and/or time spent (exercising/rest)
 st.divider()
