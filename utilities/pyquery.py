@@ -61,7 +61,7 @@ class sqlpy(sql_utils):
             user = "saiSQL", 
             # Password for connection - User generated password
             # passwd = "User-Password"
-            password = "saibabaSQL724",
+            password = "",
             # Create a database first, then fill field with info
             # Field to determine which database to start/work with
             database = "python_test_db"
